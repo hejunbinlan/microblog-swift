@@ -9,10 +9,8 @@
 /* Begin PBXBuildFile section */
 		A57734B21BCFAEE600B2627C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57734B11BCFAEE600B2627C /* AppDelegate.swift */; };
 		A57734B41BCFAEE600B2627C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57734B31BCFAEE600B2627C /* ViewController.swift */; };
-		A57734B71BCFAEE600B2627C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57734B51BCFAEE600B2627C /* Main.storyboard */; };
 		A57734BA1BCFAEE600B2627C /* microblog_swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A57734B81BCFAEE600B2627C /* microblog_swift.xcdatamodeld */; };
 		A57734BC1BCFAEE600B2627C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57734BB1BCFAEE600B2627C /* Assets.xcassets */; };
-		A57734BF1BCFAEE600B2627C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57734BD1BCFAEE600B2627C /* LaunchScreen.storyboard */; };
 		A57734CA1BCFAEE600B2627C /* microblog_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57734C91BCFAEE600B2627C /* microblog_swiftTests.swift */; };
 		A57734D51BCFAEE600B2627C /* microblog_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57734D41BCFAEE600B2627C /* microblog_swiftUITests.swift */; };
 /* End PBXBuildFile section */
@@ -38,10 +36,8 @@
 		A57734AE1BCFAEE600B2627C /* microblog-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "microblog-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57734B11BCFAEE600B2627C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A57734B31BCFAEE600B2627C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A57734B61BCFAEE600B2627C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A57734B91BCFAEE600B2627C /* microblog_swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = microblog_swift.xcdatamodel; sourceTree = "<group>"; };
 		A57734BB1BCFAEE600B2627C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A57734BE1BCFAEE600B2627C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A57734C01BCFAEE600B2627C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A57734C51BCFAEE600B2627C /* microblog-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "microblog-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57734C91BCFAEE600B2627C /* microblog_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = microblog_swiftTests.swift; sourceTree = "<group>"; };
@@ -101,9 +97,7 @@
 			children = (
 				A57734B11BCFAEE600B2627C /* AppDelegate.swift */,
 				A57734B31BCFAEE600B2627C /* ViewController.swift */,
-				A57734B51BCFAEE600B2627C /* Main.storyboard */,
 				A57734BB1BCFAEE600B2627C /* Assets.xcassets */,
-				A57734BD1BCFAEE600B2627C /* LaunchScreen.storyboard */,
 				A57734C01BCFAEE600B2627C /* Info.plist */,
 				A57734B81BCFAEE600B2627C /* microblog_swift.xcdatamodeld */,
 			);
@@ -195,6 +189,7 @@
 				TargetAttributes = {
 					A57734AD1BCFAEE600B2627C = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = GABKPEQD3S;
 					};
 					A57734C41BCFAEE600B2627C = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -231,9 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A57734BF1BCFAEE600B2627C /* LaunchScreen.storyboard in Resources */,
 				A57734BC1BCFAEE600B2627C /* Assets.xcassets in Resources */,
-				A57734B71BCFAEE600B2627C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +288,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		A57734B51BCFAEE600B2627C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A57734B61BCFAEE600B2627C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A57734BD1BCFAEE600B2627C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A57734BE1BCFAEE600B2627C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		A57734D71BCFAEE600B2627C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -351,7 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -389,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -400,7 +374,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "microblog-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.6ag.microblog-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,7 +388,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "microblog-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.6ag.microblog-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
